@@ -9,3 +9,4 @@ Instructions on run.
 - "Report": Class which handles the report activities.
 - "Tests": Tests on scenarios for the testing as well as some wrappers
 - "Util": utility classes to configure the Logging/Reporting properties
+- Results of the previous tests run are attached by following path in the repo: https://github.com/vlodch/AkamaIUITestVC/blob/main/TestAkamaiProjectUI/logfile.log
