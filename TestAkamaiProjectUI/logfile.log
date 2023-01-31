@@ -136,3 +136,15 @@
 2023-01-31 12:51:44,127 Mail sending toggel is set to false 
 2023-01-31 12:51:44,127 Mail sent : false 
 2023-01-31 12:51:44,127 ************************** Test Execution Finished ************************************ 
+2023-01-31 18:14:31,953 ************************** Test Execution Started ************************************ 
+2023-01-31 18:14:38,904 Akamai search test: Test started 
+2023-01-31 18:14:39,317 Akamai search test: Test started 
+2023-01-31 18:14:47,589 Akamai search test : Test Passed 
+2023-01-31 18:14:47,858 Akamai search test : Test Passed 
+2023-01-31 18:14:52,032 Total number of testcases : 2 
+2023-01-31 18:14:52,032 Number of testcases Passed : 2 
+2023-01-31 18:14:52,032 Number of testcases Failed : 0 
+2023-01-31 18:14:52,032 Number of testcases Skipped  : 0 
+2023-01-31 18:14:52,033 Mail sending toggel is set to false 
+2023-01-31 18:14:52,033 Mail sent : false 
+2023-01-31 18:14:52,033 ************************** Test Execution Finished ************************************ 

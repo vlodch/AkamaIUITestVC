@@ -15,21 +15,13 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * The Class is responsible for Mailing.
+ * The Class is responsible for Mailing, I haven't used it as there was no such requirement but just added as an
+ * additional property for the framework.
  *
  * @author Vchukhna
  */
 public class MailUtil {
 
-	/**
-	 * Send mail.
-	 *
-	 * @param total   the total
-	 * @param passed  the passed
-	 * @param failed  the failed
-	 * @param skipped the skipped
-	 * @return true, if successful
-	 */
 	@SuppressWarnings("unused")
 	public static boolean sendMail(int total, int passed, int failed, int skipped) {
 

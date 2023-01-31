@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 public class AkamaiTestResultsAvailableSearchTest extends BaseTest {
 
 	/**
-	 * Akamai search test.
+	 * Akamai search test results are available.
 	 */
 	@Test
 	public void akamaiSearchTest() {

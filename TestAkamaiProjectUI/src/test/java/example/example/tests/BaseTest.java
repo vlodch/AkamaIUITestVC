@@ -22,26 +22,15 @@ import java.util.concurrent.TimeUnit;
  */
 @Listeners({ReportListener.class, LogListener.class})
 public class BaseTest {
-
-	/**
-	 * The driver.
-	 */
 	protected WebDriver driver;
 
-	/**
-	 * Global setup.
-	 */
+
 	@BeforeSuite(alwaysRun = true)
 	public void globalSetup() {
 		LoggerUtil.log("************************** Test Execution Started ************************************");
 		TestProperties.loadAllPropertie();
 	}
 
-	/**
-	 * Wrap all up.
-	 *
-	 * @param context the context
-	 */
 	@AfterSuite(alwaysRun = true)
 	public void wrapAllUp(ITestContext context) {
 		int total = context.getAllTestMethods().length;
@@ -57,9 +46,6 @@ public class BaseTest {
 		LoggerUtil.log("************************** Test Execution Finished ************************************");
 	}
 
-	/**
-	 * Setup.
-	 */
 	@BeforeClass
 	protected void setup() {
 //		System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_PATH);
@@ -72,9 +58,6 @@ public class BaseTest {
 		WebDriverContext.setDriver(driver);
 	}
 
-	/**
-	 * Wrap up.
-	 */
 	@AfterClass
 	public void wrapUp() {
 		if (driver != null) {

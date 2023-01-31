@@ -9,27 +9,14 @@ import org.openqa.selenium.support.ui.FluentWait;
 import java.time.Duration;
 
 /**
- * The Class BasePage every Page should extend this class.
- *
  * @author Vchukhna
  */
 public class BasePage {
 
-	/**
-	 * The driver.
-	 */
 	protected WebDriver driver;
 
-	/**
-	 * The waiter.
-	 */
 	protected FluentWait<WebDriver> waiter;
 
-	/**
-	 * Instantiates a new base page.
-	 *
-	 * @param driver the driver
-	 */
 	public BasePage(WebDriver driver) {
 		super();
 		this.driver = driver;

@@ -12,9 +12,6 @@ import org.openqa.selenium.support.FindBy;
  */
 public class AkamaiPage extends BasePage {
 
-	/**
-	 * The searchinput.
-	 */
 	@FindBy(id = "keywordLocation")
 	private WebElement searchinput;
 
@@ -22,20 +19,10 @@ public class AkamaiPage extends BasePage {
 	private WebElement selectLocation;
 
 
-	/**
-	 * Instantiates a new Akamai page.
-	 *
-	 * @param driver the driver
-	 */
 	public AkamaiPage(WebDriver driver) {
 		super(driver);
 	}
 
-	/**
-	 * Searches the given text.
-	 *
-	 * @param key the key
-	 */
 	public void searchText(String key) {
 		searchinput.sendKeys(key + Keys.ENTER);
 	}

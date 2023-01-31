@@ -2,32 +2,32 @@
 <testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-31T11:51:26Z" name="Suite" finished-at="2023-01-31T11:51:43Z" duration-ms="17750">
+  <suite started-at="2023-01-31T17:14:31Z" name="Suite" finished-at="2023-01-31T17:14:51Z" duration-ms="19744">
     <groups>
     </groups>
-    <test started-at="2023-01-31T11:51:26Z" name="Test" finished-at="2023-01-31T11:51:43Z" duration-ms="17750">
+    <test started-at="2023-01-31T17:14:31Z" name="Test" finished-at="2023-01-31T17:14:51Z" duration-ms="19744">
       <class name="example.example.tests.AkamaiTestNoResultsSearchTest">
-        <test-method is-config="true" signature="globalSetup()[pri:0, instance:example.example.tests.AkamaiTestNoResultsSearchTest@5f71c76a]" started-at="2023-01-31T11:51:25Z" name="globalSetup" test-instance-name="Akamai search test" finished-at="2023-01-31T11:51:26Z" duration-ms="172" status="PASS">
+        <test-method is-config="true" signature="globalSetup()[pri:0, instance:example.example.tests.AkamaiTestNoResultsSearchTest@5e57643e]" started-at="2023-01-31T17:14:31Z" name="globalSetup" test-instance-name="Akamai search test" finished-at="2023-01-31T17:14:31Z" duration-ms="156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalSetup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:example.example.tests.AkamaiTestNoResultsSearchTest@5f71c76a]" started-at="2023-01-31T11:51:26Z" name="setup" test-instance-name="Akamai search test" finished-at="2023-01-31T11:51:30Z" duration-ms="4570" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:example.example.tests.AkamaiTestNoResultsSearchTest@5e57643e]" started-at="2023-01-31T17:14:31Z" name="setup" test-instance-name="Akamai search test" finished-at="2023-01-31T17:14:38Z" duration-ms="6917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="akamaiSearchTest()[pri:0, instance:example.example.tests.AkamaiTestNoResultsSearchTest@5f71c76a]" started-at="2023-01-31T11:51:30Z" name="akamaiSearchTest" description="Test description" test-instance-name="Akamai search test" finished-at="2023-01-31T11:51:40Z" duration-ms="10229" status="PASS">
+        <test-method signature="akamaiSearchTest()[pri:0, instance:example.example.tests.AkamaiTestNoResultsSearchTest@5e57643e]" started-at="2023-01-31T17:14:38Z" name="akamaiSearchTest" description="Test description" test-instance-name="Akamai search test" finished-at="2023-01-31T17:14:47Z" duration-ms="8954" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- akamaiSearchTest -->
-        <test-method is-config="true" signature="wrapUp()[pri:0, instance:example.example.tests.AkamaiTestNoResultsSearchTest@5f71c76a]" started-at="2023-01-31T11:51:41Z" name="wrapUp" test-instance-name="Akamai search test" finished-at="2023-01-31T11:51:43Z" duration-ms="1878" status="PASS">
+        <test-method is-config="true" signature="wrapUp()[pri:0, instance:example.example.tests.AkamaiTestNoResultsSearchTest@5e57643e]" started-at="2023-01-31T17:14:48Z" name="wrapUp" test-instance-name="Akamai search test" finished-at="2023-01-31T17:14:51Z" duration-ms="2897" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrapUp -->
-        <test-method is-config="true" signature="wrapAllUp(org.testng.ITestContext)[pri:0, instance:example.example.tests.AkamaiTestNoResultsSearchTest@5f71c76a]" started-at="2023-01-31T11:51:44Z" name="wrapAllUp" test-instance-name="Akamai search test" finished-at="2023-01-31T11:51:44Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="wrapAllUp(org.testng.ITestContext)[pri:0, instance:example.example.tests.AkamaiTestNoResultsSearchTest@5e57643e]" started-at="2023-01-31T17:14:52Z" name="wrapAllUp" test-instance-name="Akamai search test" finished-at="2023-01-31T17:14:52Z" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5149d738]]>
+                <![CDATA[org.testng.TestRunner@3e27aa33]]>
               </value>
             </param>
           </params>
@@ -36,15 +36,15 @@
         </test-method> <!-- wrapAllUp -->
       </class> <!-- example.example.tests.AkamaiTestNoResultsSearchTest -->
       <class name="example.example.tests.AkamaiTestResultsAvailableSearchTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:example.example.tests.AkamaiTestResultsAvailableSearchTest@1d7acb34]" started-at="2023-01-31T11:51:26Z" name="setup" test-instance-name="Akamai search test" finished-at="2023-01-31T11:51:30Z" duration-ms="4596" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:example.example.tests.AkamaiTestResultsAvailableSearchTest@133e16fd]" started-at="2023-01-31T17:14:31Z" name="setup" test-instance-name="Akamai search test" finished-at="2023-01-31T17:14:39Z" duration-ms="7352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="akamaiSearchTest()[pri:0, instance:example.example.tests.AkamaiTestResultsAvailableSearchTest@1d7acb34]" started-at="2023-01-31T11:51:30Z" name="akamaiSearchTest" description="Test description" test-instance-name="Akamai search test" finished-at="2023-01-31T11:51:40Z" duration-ms="9795" status="PASS">
+        <test-method signature="akamaiSearchTest()[pri:0, instance:example.example.tests.AkamaiTestResultsAvailableSearchTest@133e16fd]" started-at="2023-01-31T17:14:39Z" name="akamaiSearchTest" description="Test description" test-instance-name="Akamai search test" finished-at="2023-01-31T17:14:47Z" duration-ms="8271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- akamaiSearchTest -->
-        <test-method is-config="true" signature="wrapUp()[pri:0, instance:example.example.tests.AkamaiTestResultsAvailableSearchTest@1d7acb34]" started-at="2023-01-31T11:51:42Z" name="wrapUp" test-instance-name="Akamai search test" finished-at="2023-01-31T11:51:43Z" duration-ms="1744" status="PASS">
+        <test-method is-config="true" signature="wrapUp()[pri:0, instance:example.example.tests.AkamaiTestResultsAvailableSearchTest@133e16fd]" started-at="2023-01-31T17:14:48Z" name="wrapUp" test-instance-name="Akamai search test" finished-at="2023-01-31T17:14:51Z" duration-ms="2969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrapUp -->
